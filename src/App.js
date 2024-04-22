@@ -6,7 +6,7 @@ import Statstics from "./Statstics";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: <Layout/>,
     children: [
       { index: true, element: <Navigate to="/statstics" replace /> },
       { path: "/statstics", element: <Statstics /> },
